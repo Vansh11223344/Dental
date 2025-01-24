@@ -1,0 +1,39 @@
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('One.webp') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Tools menu container */
+  .tools-menu {
+    display: flex; /* Align items horizontally */
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Spacing between tool items */
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur the background */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 25px; /* Rounded edges like Google's menu */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Tool item buttons */
+  .tool-item {
+    background: rgba(255, 255, 255, 0.6); /* Slightly more opaque button */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    color: black;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }

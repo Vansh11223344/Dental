@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMC SmileCare</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #e5e3e3;
+            background-image: url('One.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 140vh;
+        }
+
+        header {
+            background-image: url('One.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: -0.5px -0.5px 0.25px black, 0.5px -0.5px 0.25px black, -0.5px 0.5px 0.25px black, 0.5px 0.5px 0.25px black;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            color: rgb(0, 0, 0);
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration-color: aquamarine;
+            color: #000000;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        .search-bar {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-bar input {
+            width: 90%;
+            max-width: 600px;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            background: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            color: black;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .search-bar input::placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        .search-bar input:focus {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+            color: #ffa600;
+        }
+
+        section h2 {
+            font-size: 2.3rem;
+            margin-bottom: 20px;
+            color: #00bbff;
+            text-shadow: -0.5px -0.5px 0.25px black, 0.5px -0.5px 0.25px black, -0.5px 0.5px 0.25px black, 0.5px 0.5px 0.25px black;
+        }
+
+        section p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #000000;
+        }
+
+        footer {
+            background-color: #555;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #00eeff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #0066ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To Our Online Platform</h1>
+        <p>A platform where your <b>Healthy Smiles Begin</b></p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+    </div>
+
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            We are dedicated to providing the best services both <b>Online</b>
+            and <b>Offline</b>. Our goal is to make your smile more precious.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>
+            From expert online consultations to personalized treatment plans,
+            we provide comprehensive dental care solutions to ensure your oral health and confidence.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            Have questions or feedback? Feel free to <a href="mailto:info@mywebsite.com">email us</a>.
+            We'd love to hear from you!
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; All rights reserved. <a href="#top">Back to Top</a></p>
+    </footer>
+</body>
+</html>
